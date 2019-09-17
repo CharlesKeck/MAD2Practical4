@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56707FD5232DE09C0045C66C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56707FD4232DE09C0045C66C /* Contact.swift */; };
 		56709414232C7BBF0049864B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56709413232C7BBF0049864B /* AppDelegate.swift */; };
 		56709416232C7BBF0049864B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56709415232C7BBF0049864B /* SceneDelegate.swift */; };
 		56709418232C7BBF0049864B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56709417232C7BBF0049864B /* ViewController.swift */; };
 		5670941B232C7BBF0049864B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56709419232C7BBF0049864B /* Main.storyboard */; };
 		5670941D232C7BC00049864B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5670941C232C7BC00049864B /* Assets.xcassets */; };
 		56709420232C7BC00049864B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5670941E232C7BC00049864B /* LaunchScreen.storyboard */; };
+		56709428232C87A70049864B /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56709427232C87A70049864B /* Content.storyboard */; };
+		5670942A232C93530049864B /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56709429232C93530049864B /* AddContactViewController.swift */; };
+		5672BA57232E18DD00FFEC14 /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672BA56232E18DD00FFEC14 /* ShowContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56707FD4232DE09C0045C66C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		56709410232C7BBF0049864B /* Telegramme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegramme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56709413232C7BBF0049864B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56709415232C7BBF0049864B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		5670941C232C7BC00049864B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5670941F232C7BC00049864B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56709421232C7BC00049864B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56709427232C87A70049864B /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		56709429232C93530049864B /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		5672BA56232E18DD00FFEC14 /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				5670941C232C7BC00049864B /* Assets.xcassets */,
 				5670941E232C7BC00049864B /* LaunchScreen.storyboard */,
 				56709421232C7BC00049864B /* Info.plist */,
+				56709427232C87A70049864B /* Content.storyboard */,
+				56709429232C93530049864B /* AddContactViewController.swift */,
+				56707FD4232DE09C0045C66C /* Contact.swift */,
+				5672BA56232E18DD00FFEC14 /* ShowContactViewController.swift */,
 			);
 			path = Telegramme;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56709428232C87A70049864B /* Content.storyboard in Resources */,
 				56709420232C7BC00049864B /* LaunchScreen.storyboard in Resources */,
 				5670941D232C7BC00049864B /* Assets.xcassets in Resources */,
 				5670941B232C7BBF0049864B /* Main.storyboard in Resources */,
@@ -139,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56709418232C7BBF0049864B /* ViewController.swift in Sources */,
+				5670942A232C93530049864B /* AddContactViewController.swift in Sources */,
+				56707FD5232DE09C0045C66C /* Contact.swift in Sources */,
 				56709414232C7BBF0049864B /* AppDelegate.swift in Sources */,
+				5672BA57232E18DD00FFEC14 /* ShowContactViewController.swift in Sources */,
 				56709416232C7BBF0049864B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
