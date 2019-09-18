@@ -74,7 +74,7 @@ class ContactController {
         fetchRequest.predicate = NSPredicate(format: "mobileno = %@", mobileno)
              do
              {
-                 let test = try context.fetch(fetchRequest)
+                let test = try context.fetch(fetchRequest)
         
                 let objectUpdate = test[0]
                 objectUpdate.setValue(newContact.firstName, forKey: "firstname")

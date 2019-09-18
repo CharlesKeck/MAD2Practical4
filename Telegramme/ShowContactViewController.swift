@@ -17,12 +17,33 @@ class ShowContactViewController : UITableViewController {
     var contactController:ContactController = ContactController()
     var contactList:[Contact] = []
     
+    var friendController:FriendController = FriendController()
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //contactList = contactController.retrieveAllContact()
         self.tableView.reloadData() //refresh data
         
+        let friend:Friend = Friend(friendname: "Simon", friendprofileImageName: "person")
+        /*
+        friendController.AddFriend(friend: friend)
+        let d = Date()
+        let message1:Message = Message(messageDate: d, messageIsSender: true, messageText: "Hello Core Data MAD 1")
+        let message2:Message = Message(messageDate: d, messageIsSender: true, messageText: "Hello Core Data MAD 2")
+        friendController.AddMessageToFriend(friend: friend, message: message1)
+        friendController.AddMessageToFriend(friend: friend, message: message2)
+        print(friendController.retrieveAllFriends().count)
+        print(friendController.retrieveAllMessages().count)
+        
+        */
+        let f1 = friendController.retriveMessagesbyFriend(friend: friend)
+        print(f1)
+        let friend2:Friend = Friend(friendname: "Fred", friendprofileImageName: "person")
+        let f2 = friendController.retriveMessagesbyFriend(friend: friend2)
+        print(f2)
     }
     
     override func viewDidAppear(_ animated: Bool) {

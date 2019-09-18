@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5608B9162331DB8800A68B42 /* Telegramme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5608B9142331DB8800A68B42 /* Telegramme.xcdatamodeld */; };
 		5608B9182331DECF00A68B42 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5608B9172331DECF00A68B42 /* ContactController.swift */; };
+		5608B91A23320DF500A68B42 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5608B91923320DF500A68B42 /* Friend.swift */; };
+		5608B91C23320E7B00A68B42 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5608B91B23320E7B00A68B42 /* Message.swift */; };
+		5608B91E23320F0900A68B42 /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5608B91D23320F0900A68B42 /* FriendController.swift */; };
 		56707FD5232DE09C0045C66C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56707FD4232DE09C0045C66C /* Contact.swift */; };
 		56709414232C7BBF0049864B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56709413232C7BBF0049864B /* AppDelegate.swift */; };
 		56709416232C7BBF0049864B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56709415232C7BBF0049864B /* SceneDelegate.swift */; };
@@ -24,6 +27,9 @@
 /* Begin PBXFileReference section */
 		5608B9152331DB8800A68B42 /* Telegramme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telegramme.xcdatamodel; sourceTree = "<group>"; };
 		5608B9172331DECF00A68B42 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		5608B91923320DF500A68B42 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		5608B91B23320E7B00A68B42 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5608B91D23320F0900A68B42 /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
 		56707FD4232DE09C0045C66C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		56709410232C7BBF0049864B /* Telegramme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegramme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56709413232C7BBF0049864B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				5672BA56232E18DD00FFEC14 /* ShowContactViewController.swift */,
 				5608B9142331DB8800A68B42 /* Telegramme.xcdatamodeld */,
 				5608B9172331DECF00A68B42 /* ContactController.swift */,
+				5608B91923320DF500A68B42 /* Friend.swift */,
+				5608B91B23320E7B00A68B42 /* Message.swift */,
+				5608B91D23320F0900A68B42 /* FriendController.swift */,
 			);
 			path = Telegramme;
 			sourceTree = "<group>";
@@ -163,6 +172,9 @@
 				56707FD5232DE09C0045C66C /* Contact.swift in Sources */,
 				56709414232C7BBF0049864B /* AppDelegate.swift in Sources */,
 				5672BA57232E18DD00FFEC14 /* ShowContactViewController.swift in Sources */,
+				5608B91A23320DF500A68B42 /* Friend.swift in Sources */,
+				5608B91C23320E7B00A68B42 /* Message.swift in Sources */,
+				5608B91E23320F0900A68B42 /* FriendController.swift in Sources */,
 				5608B9162331DB8800A68B42 /* Telegramme.xcdatamodeld in Sources */,
 				56709416232C7BBF0049864B /* SceneDelegate.swift in Sources */,
 			);
