@@ -47,6 +47,31 @@ class AddContactViewController : UIViewController {
         
         tabBarController?.selectedIndex = 1
         
+        activityIndicator.isHidden = false
+        activityIndicator.startAnimating()
+        
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.testThread()
+        }
+
+        
+    }
+    
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+    func testThread(){
+        for i in 1...3 {
+            Thread.sleep(forTimeInterval: 3.0) //Sleep for 3 seconds
+            print("\(i)")
+        }
+        DispatchQueue.main.async {
+            self.onCompletion()
+        }
+    }
+    
+    func onCompletion(){
+        activityIndicator.stopAnimating()
+        activityIndicator.isHidden = true
     }
     
 }

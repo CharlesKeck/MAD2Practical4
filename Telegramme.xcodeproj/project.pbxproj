@@ -22,6 +22,8 @@
 		56709428232C87A70049864B /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56709427232C87A70049864B /* Content.storyboard */; };
 		5670942A232C93530049864B /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56709429232C93530049864B /* AddContactViewController.swift */; };
 		5672BA57232E18DD00FFEC14 /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672BA56232E18DD00FFEC14 /* ShowContactViewController.swift */; };
+		56E4C3332345F21F002E874F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4C3322345F21F002E874F /* MapViewController.swift */; };
+		56E4C3352345F30F002E874F /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4C3342345F30F002E874F /* LocationDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		56709427232C87A70049864B /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
 		56709429232C93530049864B /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		5672BA56232E18DD00FFEC14 /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
+		56E4C3322345F21F002E874F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		56E4C3342345F30F002E874F /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				5608B91923320DF500A68B42 /* Friend.swift */,
 				5608B91B23320E7B00A68B42 /* Message.swift */,
 				5608B91D23320F0900A68B42 /* FriendController.swift */,
+				56E4C3322345F21F002E874F /* MapViewController.swift */,
+				56E4C3342345F30F002E874F /* LocationDelegate.swift */,
 			);
 			path = Telegramme;
 			sourceTree = "<group>";
@@ -166,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E4C3352345F30F002E874F /* LocationDelegate.swift in Sources */,
 				56709418232C7BBF0049864B /* ViewController.swift in Sources */,
 				5670942A232C93530049864B /* AddContactViewController.swift in Sources */,
 				5608B9182331DECF00A68B42 /* ContactController.swift in Sources */,
@@ -173,6 +180,7 @@
 				56709414232C7BBF0049864B /* AppDelegate.swift in Sources */,
 				5672BA57232E18DD00FFEC14 /* ShowContactViewController.swift in Sources */,
 				5608B91A23320DF500A68B42 /* Friend.swift in Sources */,
+				56E4C3332345F21F002E874F /* MapViewController.swift in Sources */,
 				5608B91C23320E7B00A68B42 /* Message.swift in Sources */,
 				5608B91E23320F0900A68B42 /* FriendController.swift in Sources */,
 				5608B9162331DB8800A68B42 /* Telegramme.xcdatamodeld in Sources */,
